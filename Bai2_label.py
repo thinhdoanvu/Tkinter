@@ -25,7 +25,7 @@ lbl_1.grid(column=0, row=0)
 window.mainloop()
 -------------------------------------------------------------------------------------------
 #Ending code!
-
+"""
 Giải thích
 lbl_1 là tên gọi của label, ví dụ label dùng để hiển thị tên là: lbl_name, hiển thị lương là: lbl_luong.
 Việc đặt tên label sao cho dễ nhớ, để sau này biết gọi đến label nào cho tiện.
