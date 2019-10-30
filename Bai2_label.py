@@ -20,7 +20,7 @@ window.title("Bai 2, su dung label");
 lbl_1 = Label(window, text="My name is dthinh")
 
 #Vị trí hiển thị của label
-lbl_1.grid(colum=0, row=0)
+lbl_1.grid(column=0, row=0)
 
 window.mainloop()
 -------------------------------------------------------------------------------------------
@@ -38,3 +38,8 @@ Cái này khá quen thuộc nếu ai đó từng lập trình giao diện với 
 Sau khi đã gán tên là lbl_1, bây giờ sẽ có các thuộc tính cần được sử dụng. Một trong số đó là: lbl_1.grid().
 Mỗi thuộc tính được gọi bởi dấu chấm (.). Trong C# hay VB tối đa là 8 thuộc tính.
 Cú pháp của .grid như sau: lbl_1.grid(colum = ?, row = ?) - Tọa độ của label trong cửa sổ giao diện.
+  
+Khi thực hiện bài này, bạn sẽ thấy cửa sổ của bạn bé lại đúng bằng một cô gái, à không đúng bằng label vừa tạo.
+Do đó, chúng ra cần điều chỉnh khung cửa sổ cố định kích thước bằng lệnh: window.geometry('300,200')
+ 
+Trong đó, '300,200' lần lượt là chiều rộng và chiều cao.
