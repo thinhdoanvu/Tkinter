@@ -40,7 +40,7 @@ Mỗi thuộc tính được gọi bởi dấu chấm (.). Trong C# hay VB tối
 Cú pháp của .grid như sau: lbl_1.grid(colum = ?, row = ?) - Tọa độ của label trong cửa sổ giao diện.
   
 Khi thực hiện bài này, bạn sẽ thấy cửa sổ của bạn bé lại đúng bằng một cô gái, à không đúng bằng label vừa tạo.
-Do đó, chúng ra cần điều chỉnh khung cửa sổ cố định kích thước bằng lệnh: window.geometry('300,200')
+Do đó, chúng ra cần điều chỉnh khung cửa sổ cố định kích thước bằng lệnh: window.geometry('300x200')
  
-Trong đó, '300,200' lần lượt là chiều rộng và chiều cao.
+Trong đó, '300x200' lần lượt là chiều rộng và chiều cao.
 """
