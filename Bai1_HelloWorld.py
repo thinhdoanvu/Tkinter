@@ -1,9 +1,11 @@
+"""
 Bài tập kinh điển cho mọi ngôn ngữ lập trình.
 
 Để bắt đầu bài tập, chúng ta cần sử dụng khung chương trình cho tất cả các bài tập sau này:
 
 Coding here!
 --------------------------------------------------------------------------------------------
+"""
 #Khai baó thư viện
 from tkinter import *
 
@@ -17,6 +19,7 @@ window.title("Hello World")
 
 window.mainloop()
 
+""""
 Ending Code!
 ------------------------------------------------------------------------------------------
 Đoạn code trên khá quen thuộc với các bạn đang lập trình Arduino hay C bằng DevC++
@@ -39,3 +42,4 @@ Bấm tổ hợp phím: Ctrl + Shift + T để mở thêm 1 Tab mới.
   
   -- Chúc bạn thành công -- 
   
+"""
