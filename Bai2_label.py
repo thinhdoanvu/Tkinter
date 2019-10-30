@@ -43,3 +43,4 @@ Khi thực hiện bài này, bạn sẽ thấy cửa sổ của bạn bé lại 
 Do đó, chúng ra cần điều chỉnh khung cửa sổ cố định kích thước bằng lệnh: window.geometry('300,200')
  
 Trong đó, '300,200' lần lượt là chiều rộng và chiều cao.
+"""
